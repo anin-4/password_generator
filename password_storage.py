@@ -1,7 +1,7 @@
 import random
 import string_utils #has this awesome library to shuffle strings
 import mysql.connector
-mydb = mysql.connector.connect(host="localhost", user="root",passwd="1459142337@Ani",database="password_storer")
+mydb = mysql.connector.connect(host="localhost", user="your username",passwd="your password",database="password_storer")
 mycursor=mydb.cursor()
 
 def existing_password():
